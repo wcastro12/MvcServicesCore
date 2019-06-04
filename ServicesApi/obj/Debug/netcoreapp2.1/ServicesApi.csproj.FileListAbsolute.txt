@@ -1,0 +1,15 @@
+E:\Net\Net Core\web aplication\WebAppli\ServicesApi\bin\Debug\netcoreapp2.1\ServicesApi.deps.json
+E:\Net\Net Core\web aplication\WebAppli\ServicesApi\bin\Debug\netcoreapp2.1\ServicesApi.runtimeconfig.json
+E:\Net\Net Core\web aplication\WebAppli\ServicesApi\bin\Debug\netcoreapp2.1\ServicesApi.runtimeconfig.dev.json
+E:\Net\Net Core\web aplication\WebAppli\ServicesApi\bin\Debug\netcoreapp2.1\ServicesApi.dll
+E:\Net\Net Core\web aplication\WebAppli\ServicesApi\bin\Debug\netcoreapp2.1\ServicesApi.pdb
+E:\Net\Net Core\web aplication\WebAppli\ServicesApi\obj\Debug\netcoreapp2.1\ServicesApi.csprojAssemblyReference.cache
+E:\Net\Net Core\web aplication\WebAppli\ServicesApi\obj\Debug\netcoreapp2.1\ServicesApi.csproj.CoreCompileInputs.cache
+E:\Net\Net Core\web aplication\WebAppli\ServicesApi\obj\Debug\netcoreapp2.1\ServicesApi.RazorAssemblyInfo.cache
+E:\Net\Net Core\web aplication\WebAppli\ServicesApi\obj\Debug\netcoreapp2.1\ServicesApi.RazorAssemblyInfo.cs
+E:\Net\Net Core\web aplication\WebAppli\ServicesApi\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+E:\Net\Net Core\web aplication\WebAppli\ServicesApi\obj\Debug\netcoreapp2.1\ServicesApi.AssemblyInfoInputs.cache
+E:\Net\Net Core\web aplication\WebAppli\ServicesApi\obj\Debug\netcoreapp2.1\ServicesApi.AssemblyInfo.cs
+E:\Net\Net Core\web aplication\WebAppli\ServicesApi\obj\Debug\netcoreapp2.1\ServicesApi.RazorTargetAssemblyInfo.cache
+E:\Net\Net Core\web aplication\WebAppli\ServicesApi\obj\Debug\netcoreapp2.1\ServicesApi.dll
+E:\Net\Net Core\web aplication\WebAppli\ServicesApi\obj\Debug\netcoreapp2.1\ServicesApi.pdb

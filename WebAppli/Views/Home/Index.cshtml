@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div style="background-color:aliceblue; border-bottom-color:black;">
+    SSingletonInstance: @ViewData["SSingletonInstance"] ;
+    <br />
+    SSingleton: @ViewData["SSingleton"] ;
+    <br />
+    STransing: @ViewData["STransing"] ;
+    <br />
+    SScode : @ViewData["SScode"] ;
+    <br />
+    <br />
+    SingletonInstance: @ViewData["SingletonInstance"] ;
+    <br />
+    Singleton: @ViewData["Singleton"] ;
+    <br />
+    Transing: @ViewData["Transing"] ;
+    <br />
+    Scode: @ViewData["Scode"] ;
+</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000" style="display:flex;text-align:center;">
+    <h1>Students</h1>
+    @await Component.InvokeAsync("Student");
+</div>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000" style="display:flex;text-align:center;">
+    <h1>Course</h1>
+    @await Component.InvokeAsync("Course");
+</div>
+
+
