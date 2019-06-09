@@ -2,7 +2,6 @@ E:\Net\Net Core\web aplication\WebAppli\WebAppli\bin\Debug\netcoreapp2.1\WebAppl
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\bin\Debug\netcoreapp2.1\WebAppli.runtimeconfig.json
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\bin\Debug\netcoreapp2.1\WebAppli.runtimeconfig.dev.json
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\bin\Debug\netcoreapp2.1\WebAppli.dll
-E:\Net\Net Core\web aplication\WebAppli\WebAppli\obj\Debug\netcoreapp2.1\WebAppli.csprojAssemblyReference.cache
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\obj\Debug\netcoreapp2.1\WebAppli.csproj.CoreCompileInputs.cache
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\obj\Debug\netcoreapp2.1\WebAppli.RazorAssemblyInfo.cache
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\obj\Debug\netcoreapp2.1\WebAppli.RazorAssemblyInfo.cs

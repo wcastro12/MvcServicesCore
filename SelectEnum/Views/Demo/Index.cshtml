@@ -1,0 +1,92 @@
+﻿@model SelectEnum.Models.Category
+@{
+
+<form asp-controller="Demo" asp-action="Index" method="post" class="form-horizontal" role="form">
+
+    <div class="form-group">
+        <div class="row">
+            <div class="alert-danger" asp-validation-summary="ModelOnly">
+
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <label asp-for="Name" class="control-label"></label>
+                <select asp-for="CategoryID" class="form-control"
+                        asp-items="@(new SelectList(@ViewBag.ListC, "CategoryID","Name"))"></select>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <label class="control-label">Sub Category</label>
+                <select asp-for="SubProductID" class="form-control"
+                        asp-items="@(new SelectList(string.Empty, "CategoryID","Name"))"></select>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <label class="control-label">Main Product</label>
+                <select asp-for="ProductID" class="form-control"
+                        asp-items="@(new SelectList(string.Empty, "SubCategoryID","Name"))"></select>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                <input type="submit" id="sibmit1" value="submit" />
+            </div>
+        </div>
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#CategoryID').change(function () {
+                var ulr = '@Url.Content("~/")' + "Demo/GetSubCategory";
+                var ddlsource = $('#CategoryID').val();
+                alert(ddlsource);
+                $.getJSON(ulr, { IdCategory: ddlsource }, function (data) {
+                    var item = '';
+                    $('#SubProductID').empty();
+                    $.each(data, function (i, subcategory) {
+                        item += "<option value='" + subcategory.value + "'>" + subcategory.text + "</option>";
+                    });
+                    $('#SubProductID').html(item);
+                });
+
+            });
+            
+            var item = "<option value='0' >Select </option>";
+            $('#SubProductID').html(item);
+            $('#ProductID').html(item);
+
+
+            $('#SubProductID').change(function () {
+                var ulr = '@Url.Content("~/")' + "Demo/GetPorducts";
+                var spsource = $('#SubProductID').val();
+                alert(spsource);
+                $.getJSON(ulr, { IdSubCategory: spsource }, function (data) {
+                    var item = '';
+                    $('#ProductID').empty();
+                    $.each(data, function (i, subcategory) {
+                        item += "<option value='" + subcategory.value + "'>" + subcategory.text + "</option>";
+                    });
+                    $('#ProductID').html(item);
+                });
+            });
+        })
+    </script>
+
+</form>
+
+}

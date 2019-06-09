@@ -1,0 +1,11 @@
+E:\Net\Net Core\web aplication\WebAppli\UnitTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\Net\Net Core\web aplication\WebAppli\UnitTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\Net\Net Core\web aplication\WebAppli\UnitTest\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\Net\Net Core\web aplication\WebAppli\UnitTest\bin\Debug\netcoreapp2.2\UnitTest.deps.json
+E:\Net\Net Core\web aplication\WebAppli\UnitTest\bin\Debug\netcoreapp2.2\UnitTest.runtimeconfig.json
+E:\Net\Net Core\web aplication\WebAppli\UnitTest\bin\Debug\netcoreapp2.2\UnitTest.runtimeconfig.dev.json
+E:\Net\Net Core\web aplication\WebAppli\UnitTest\bin\Debug\netcoreapp2.2\UnitTest.dll
+E:\Net\Net Core\web aplication\WebAppli\UnitTest\obj\Debug\netcoreapp2.2\UnitTest.csprojAssemblyReference.cache
+E:\Net\Net Core\web aplication\WebAppli\UnitTest\obj\Debug\netcoreapp2.2\UnitTest.csproj.CoreCompileInputs.cache
+E:\Net\Net Core\web aplication\WebAppli\UnitTest\obj\Debug\netcoreapp2.2\UnitTest.AssemblyInfoInputs.cache
+E:\Net\Net Core\web aplication\WebAppli\UnitTest\obj\Debug\netcoreapp2.2\UnitTest.AssemblyInfo.cs

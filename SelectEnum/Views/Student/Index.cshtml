@@ -1,0 +1,39 @@
+﻿@model SelectEnum.Models.Student
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<h4>Student</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Index">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Branch" class="control-label"></label>
+                @*<select asp-for="Branch" class="form-control" asp-items="Html.GetEnumSelectList<Branch>()" />*@
+
+                <select asp-for="Branch" class="form-control"
+                        asp-items="@(new SelectList(@ViewBag.select,"Value","Text"))" />
+
+
+              
+                @*<span asp-validation-for="Branch" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <input type="submit" value="Create" class="btn btn-default" />*@
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
