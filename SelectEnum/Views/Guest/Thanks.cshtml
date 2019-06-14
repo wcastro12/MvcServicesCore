@@ -1,0 +1,22 @@
+﻿@model SelectEnum.Models.GuestParty
+
+@{
+    ViewData["Title"] = "Thanks";
+}
+<html>
+<body>
+    <form>
+    <h1>@Model.Name</h1>
+
+        @if (Model.willAttnd == true)
+        {
+    @: Enjoy this party
+
+        }
+        else
+        {
+        @:Sorry for this
+        }
+</form>
+</body>
+</html>

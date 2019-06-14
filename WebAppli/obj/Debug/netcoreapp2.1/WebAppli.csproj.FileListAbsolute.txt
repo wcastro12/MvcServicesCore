@@ -2,6 +2,10 @@ E:\Net\Net Core\web aplication\WebAppli\WebAppli\bin\Debug\netcoreapp2.1\WebAppl
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\bin\Debug\netcoreapp2.1\WebAppli.runtimeconfig.json
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\bin\Debug\netcoreapp2.1\WebAppli.runtimeconfig.dev.json
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\bin\Debug\netcoreapp2.1\WebAppli.dll
+E:\Net\Net Core\web aplication\WebAppli\WebAppli\bin\Debug\netcoreapp2.1\WebAppli.pdb
+E:\Net\Net Core\web aplication\WebAppli\WebAppli\bin\Debug\netcoreapp2.1\WebAppli.Views.dll
+E:\Net\Net Core\web aplication\WebAppli\WebAppli\bin\Debug\netcoreapp2.1\WebAppli.Views.pdb
+E:\Net\Net Core\web aplication\WebAppli\WebAppli\obj\Debug\netcoreapp2.1\WebAppli.csprojAssemblyReference.cache
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\obj\Debug\netcoreapp2.1\WebAppli.csproj.CoreCompileInputs.cache
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\obj\Debug\netcoreapp2.1\WebAppli.RazorAssemblyInfo.cache
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\obj\Debug\netcoreapp2.1\WebAppli.RazorAssemblyInfo.cs
@@ -34,9 +38,6 @@ E:\Net\Net Core\web aplication\WebAppli\WebAppli\obj\Debug\netcoreapp2.1\Razor\V
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\obj\Debug\netcoreapp2.1\WebAppli.RazorTargetAssemblyInfo.cache
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\obj\Debug\netcoreapp2.1\WebAppli.RazorTargetAssemblyInfo.cs
-E:\Net\Net Core\web aplication\WebAppli\WebAppli\bin\Debug\netcoreapp2.1\WebAppli.pdb
-E:\Net\Net Core\web aplication\WebAppli\WebAppli\bin\Debug\netcoreapp2.1\WebAppli.Views.dll
-E:\Net\Net Core\web aplication\WebAppli\WebAppli\bin\Debug\netcoreapp2.1\WebAppli.Views.pdb
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\obj\Debug\netcoreapp2.1\WebAppli.Views.pdb
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\obj\Debug\netcoreapp2.1\WebAppli.dll
 E:\Net\Net Core\web aplication\WebAppli\WebAppli\obj\Debug\netcoreapp2.1\WebAppli.pdb

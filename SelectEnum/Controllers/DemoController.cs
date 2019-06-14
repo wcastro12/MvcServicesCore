@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using SelectEnum.Models;
@@ -18,6 +19,8 @@ namespace SelectEnum.Controllers
         }
         public IActionResult Index()
         {
+            //session
+            HttpContext.Session.SetString("test","Session Value");
             List<Category> Clist = new List<Category>();
 
             Clist = (from category in this.Context.Categorys
@@ -32,6 +35,8 @@ namespace SelectEnum.Controllers
 
         public JsonResult GetSubCategory(int IdCategory)
         {
+            //session
+            var sessiontest = HttpContext.Session.GetString("test");
             List<SubCategory> Lsubcategory = new List<SubCategory>();
             Lsubcategory = (from subcategory in this.Context.SubCategorys
                             where subcategory.CategoryID == IdCategory
@@ -54,6 +59,11 @@ namespace SelectEnum.Controllers
 
             return Json(new SelectList(Lsubproduct, "MainProductID", "Name"));
 
+        }
+
+        public ActionResult ModalPopUp()
+        {
+            return View();
         }
     }
 }
